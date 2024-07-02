@@ -13,7 +13,7 @@ export default function MediaCard(props) {
       <CardMedia
         sx={{ height:140 }}
         image={props.pic}
-        title="green iguana"
+        title="S"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -21,6 +21,7 @@ export default function MediaCard(props) {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {props.about}
+          Kuhu
         </Typography>
       </CardContent>
       <CardActions>
